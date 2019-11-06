@@ -9,9 +9,9 @@ public enum PinMode: Int {
   case Input, Output
 }
 
-public class Pin {
-  let number: Int
-  let mode: PinMode
+public struct Pin {
+  var number: Int
+  var mode: PinMode
 }
 
 public enum SwiftFirmataError: Error {
