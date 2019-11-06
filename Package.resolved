@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CFirmata",
+        "repositoryURL": "https://github.com/MaatheusGois/CFirmata",
+        "state": {
+          "branch": "master",
+          "revision": "d94d7d2529c2bdfa1cbd4ed08c1961b4d598798f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
