@@ -9,7 +9,7 @@ public enum PinMode: Int {
   case Input, Output
 }
 
-public struct Pin {
+public class Pin {
   let number: Int
   let mode: PinMode
 }
