@@ -23,6 +23,15 @@ Don't forget to change the URL for: https://github.com/MaatheusGois/SwiftFirmata
 
 ### Step 3
 
+Search your Arduino port with: 
+
+In macOS:
+```shell
+ls /dev/tty.usbmodem*
+```
+Others: [Tutorial](https://www.mathworks.com/help/supportpkg/arduinoio/ug/find-arduino-port-on-windows-mac-and-linux.html).
+
+### Step 4
 Be Happy!
 
 
@@ -33,7 +42,9 @@ Be Happy!
 import SwiftFirmata
 
 // Blink led hooked on pin 13
-let firmata = try! SwiftFirmata(connect: "/dev/cu.usbmodem1421", baud: 57600)
+
+let arduidoPort = "/dev/cu.usbmodem1421"
+let firmata = try! SwiftFirmata(connect: arduidoPort, baud: 57600)
 let pin = Pin(number: 13, mode: .Output)
 firmata.configure(pin)
 
