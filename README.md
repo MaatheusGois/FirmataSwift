@@ -17,11 +17,14 @@ Install in Arduino the Standard Firmata [Tutorial](https://www.instructables.com
 
 ### Step 2
 
-Install the package in your project [Tutorial](https://www.ralfebert.de/ios/swift-package-manager-for-ios-projects/).
+Install this package in your project [Tutorial](https://www.ralfebert.de/ios/swift-package-manager-for-ios-projects/).
+
+Don't forget to change the URL for: https://github.com/MaatheusGois/SwiftFirmata
 
 ### Step 3
 
 Be Happy!
+
 
 
 ## Example:
