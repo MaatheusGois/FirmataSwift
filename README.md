@@ -13,11 +13,11 @@ Heavily inspired on: https://github.com/marciok/SwiftFirmata
 
 ### Step 1
 
-Install in Arduino the Standard Firmata [Exemple Tutorial](https://www.instructables.com/id/Arduino-Installing-Standard-Firmata/).
+Install in Arduino the Standard Firmata: [Exemple Tutorial](https://www.instructables.com/id/Arduino-Installing-Standard-Firmata/).
 
 ### Step 2
 
-Install this package in your project [Exemple Tutorial](https://www.ralfebert.de/ios/swift-package-manager-for-ios-projects/).
+Install this package in your project: [Exemple Tutorial](https://www.ralfebert.de/ios/swift-package-manager-for-ios-projects/).
 
 Don't forget to change the URL for: https://github.com/MaatheusGois/SwiftFirmata
 
